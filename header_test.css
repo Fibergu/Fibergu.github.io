@@ -1,0 +1,108 @@
+body {
+	background-image: url("background_criminum.jpeg");
+}
+	
+	
+	
+	#page {
+            position:relative; 	
+			
+    }
+    header {
+            min-height:100px;
+            position:relative;
+			max-width: 1920px;
+    
+    }
+   
+   header img {         
+            display: block;
+			margin: 0 auto;
+			margin-top: 50px;
+			
+    }
+       
+  /*navigation bar*/ 
+	
+    nav {
+            position:absolute;
+            top:140px;
+            left: 0em;
+            right:0;
+            bottom:0;
+            color:green;
+            min-width:800px;
+            text-align:left;
+            height:20px;
+            padding:10px 20px;
+			white-space: nowrap;
+			float:left;
+    }
+    
+    
+    nav a {
+            font-size:14px;
+            margin:10px 0;height:20px;
+            padding:12px 5em;
+            color: black;
+            text-decoration:none;
+			
+			
+    }
+    
+    nav a:hover {
+    background-color:rgba(0, 0, 0, 0.3);
+    }
+	
+	
+	
+/*streamlist*/
+
+#stream_list {
+	font-size: 150%;
+	width: 340px;
+	height: 738px;
+	float: left;
+	text-align: center;
+	margin-top: 79px;
+}
+
+#stream_title {
+	color: white;
+	font-size: 160%;
+}
+
+#stream_list ul {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 15px;
+	padding-right: 15px;
+	list-style-type: none;
+}
+
+#stream_list li {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+
+/*stream + chat */	
+	
+	
+	
+#mrplebster_stream {
+	text-align: center;
+	margin-top: 79px;
+	width: auto;
+	height: auto;
+	margin-left: 0em;
+}
+#mrplebster_chat {
+	margin-top: 79;
+	position: relative;
+	float: right;
+}
+
+#mrplebster_chat, #mrplebster_stream, #stream_list {
+	display: inline-block;
+}
