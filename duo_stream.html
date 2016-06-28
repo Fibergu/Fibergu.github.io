@@ -1,0 +1,80 @@
+<html>
+  <head>
+    <title>Criminum Gaming</title>
+	<link rel="stylesheet" href="duo_stream.css" />
+	<meta charset="utf-8" />
+	<style type="text/css">
+	<!--
+body {
+ margin-top: 0px;
+ margin-right: 0px;
+ margin-bottom: 0px;
+ margin-left: 0px
+}
+-->
+</style>
+  </head>
+
+ <body>
+    
+        <div id="page">
+    
+            <header>
+                <div>
+            <img src="criminum-header.png" border="0">
+                    </div>
+            <nav>
+			<a href="#">About</a>
+                    <a href="Overwatch.html">Overwatch</a>
+                    <a href="Wildstar.html">Wildstar</a>
+                    <a href="Hots.html">Heroes of the Storm</a>
+                    <a href="Ark.html">Ark: Survival Evolved</a>
+                    <a href="#">CS:GO</a>
+                    <a href="Surf.html">CS 1.6 Surf</a>
+					<a href="#">Forum</a>
+					<a href="#">Curse</a>
+            </nav>
+               </header>
+	
+	
+	<div id="mrplebster_stream">
+	 <iframe src="http://twitch.tv/mrplebster/embed" allowfullscreen frameborder="0" seamless height="726" width="808.5"></iframe>
+	 </div> 
+	 
+	 <div id="dikksmacker_stream">
+	 <iframe src="http://twitch.tv/dikksmacker/embed" allowfullscreen frameborder="0" seamless height="726" width="808.5"></iframe>
+	 </div> 
+	 
+	  <ul class="navbar_chat">
+  <li id="navbar_menu"><a href="#" onclick="openCity('London')">MrPlebster</a></li>
+  <li><a href="#" onclick="openCity('Paris')">Dikksmacker</a></li>
+</ul>
+	 
+	 <div id="London" class="city">
+   <iframe src="http://twitch.tv/mrplebster/chat" frameborder="0" seamless height="691" width="303" ></iframe> 
+</div>
+
+<div id="Paris" class="city">
+	 <iframe src="http://twitch.tv/dikksmacker/chat" frameborder="0" seamless height="691" width="303" ></iframe> 
+</div>
+
+	
+<script>
+openCity("London");
+
+function openCity(cityName) {
+    var i;
+    var x = document.getElementsByClassName("city");
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none"; 
+    }
+    document.getElementById(cityName).style.display = "block"; 
+}
+	</script> 
+	 
+	 
+	 
+	 
+	 </header>
+	 </body>
+	 </html>

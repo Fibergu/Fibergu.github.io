@@ -1,0 +1,116 @@
+body {
+	background-image: url("background_criminum.jpeg");
+	overflow:hidden;
+}
+	
+	
+	
+	#page {
+            position:relative; 	
+			
+    }
+    header {
+            min-height:100px;
+            position:relative;
+			max-width: 1920px;
+    
+    }
+   
+   header img {         
+            display: block;
+			margin: 0 auto;
+			margin-top: 50px;
+			max-width: 60vw;
+			
+    }
+       
+  /*navigation bar*/ 
+	
+    nav {
+            position:absolute;
+            top:7.3vw;
+            left: 0em;
+            right:0;
+            bottom:0;
+            color:green;
+            min-width:800px;
+            text-align:left;
+            height:20px;
+            padding:10px 1.7vw;
+			white-space: nowrap;
+			float:left;
+			max-width: 80vw;
+    }
+    
+    
+    nav a {
+            font-size:14px;
+            margin:10px 0;height:20px;
+            padding:12px 5em;
+            color: black;
+            text-decoration:none;
+			
+			
+    }
+    
+    nav a:hover {
+    background-color:rgba(0, 0, 0, 0.3);
+    }
+	
+	
+	
+
+/*stream + chat */	
+	
+	
+	
+#mrplebster_stream {
+	float:left;
+	width: auto;
+	height: auto;
+	margin-top: 79px;
+}
+
+
+#dikksmacker_stream, #mrplebster_stream, .navbar_chat, #london, #paris {
+	display: inline-block;
+}
+
+#dikksmacker_stream {
+	float: left;
+	margin-top: 79px;
+	width: auto;
+	height: auto;
+}
+
+.navbar_chat {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	margin-top: 79px;
+	float: right;
+}
+
+.navbar_chat li {
+	float: left;
+}
+
+.navbar_chat a {
+	display: block;
+	padding: 8px 36px 8px 36.6px;
+	border-top: solid 1px black;
+	text-decoration: none;
+	color: black;
+}
+
+.navbar_chat a:hover {
+    background-color:rgba(0, 0, 0, 0.3);
+    }
+	
+#london, #paris {
+	float: right;
+}
+
+#navbar_menu {
+	border-right: solid 1px black;
+}
