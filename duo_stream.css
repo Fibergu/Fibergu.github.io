@@ -119,3 +119,50 @@ iframe {
 	border: 0;
 }
 
+
+
+
+
+
+/* MEDIA QUERIES */
+
+
+
+@media only screen and (max-width: 1650px) {
+    nav {
+            position:absolute;
+            top:7.3vw;
+            left: 0em;
+            right:0;
+            bottom:0;
+            color:green;
+            min-width:800px;
+            text-align:left;
+            height:20px;
+            padding:0px 0vw;
+			white-space: nowrap;
+			float:left;
+			max-width: 80vw;
+    }
+    
+    
+    nav a {
+            font-size:14px;
+            margin:5px 10px;height:20px;
+            padding:5px 3vw;
+            color: black;
+            text-decoration:none;
+	}	
+	#mrplebster_stream iframe {
+		width: 664.5px;
+		height: 530px;
+	}
+	
+	#dikksmacker_stream iframe {
+		width: 664.5px;
+		height: 530px;
+	}
+	.city iframe {
+		height: 494px;
+	}
+	}
