@@ -165,4 +165,8 @@ iframe {
 	.city iframe {
 		height: 494px;
 	}
+	
+	.navbar_chat {
+	border-right: solid 1px black;
 	}
+}
