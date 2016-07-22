@@ -173,14 +173,15 @@ iframe {
 
 @media screen and (max-width: 1300px) {
 
-#mrplebster_stream iframe 
+#mrplebster_stream iframe {
 width: 1300px;
 height: 800px;
 }
 
-#dikksmacker_stream iframe 
+#dikksmacker_stream iframe { 
 width: 1300px;
 height: 800px;
+}
 
 
 
