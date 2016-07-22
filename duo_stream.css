@@ -210,7 +210,7 @@ text-align: center;
 width: 720px;
 }
 
-nav 
+nav {
 position: absolute;
 top: 7.3vw;
 left: 0em;
@@ -224,6 +224,7 @@ padding: 0px, 0vw;
 white-space: nowrap;
 float:left;
 min-width: 80vw;
+}
 
 
 body {
