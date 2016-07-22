@@ -173,6 +173,10 @@ iframe {
 
 @media screen and (max-width: 1300px) {
 
+#mrplebster_stream iframe {
+width: 800px;
+}
+}
 
 
 
