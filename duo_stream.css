@@ -204,10 +204,10 @@ text-align: center;
 
 @media screen and(max-width: 1440px) {
  #mrplebster_stream iframe {
- width: 725px;
+ width: 720px;
 }
 #dikksmacker_stream {
-width: 725px;
+width: 720px;
 }
 
 body {
