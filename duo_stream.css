@@ -203,10 +203,15 @@ text-align: center;
 }
 
 @media screen and(max-width: 1440px) {
- #mrplebster_stream iframe 
+ #mrplebster_stream iframe {
  width: 700px;
 }
-body 
+#dikksmacker_stream {
+width: 700px;
+}
+
+body {
 overflow-x: hidden;
 overflow-y: scroll;
+}
 }
